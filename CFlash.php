@@ -41,7 +41,6 @@ class CFlash extends \Anax\Flash\CFlashBasic
      */
     private function setKey($key, $value)
     {
-        //$_SESSION['flash'][$key][] = $value;
         $_SESSION['flash'][] = [
             'type' => $key,
             'message' => $value,
