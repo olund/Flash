@@ -1,5 +1,7 @@
 Flash
 =========
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/olund/Flash/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/olund/Flash/?branch=master)
+
 ```
  _____ _           _
 |  ___| | __ _ ___| |__  
