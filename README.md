@@ -1,5 +1,13 @@
 Flash
 =========
+```
+ _____ _           _
+|  ___| | __ _ ___| |__  
+| |_  | |/ _` / __| '_ \
+|  _| | | (_| \__ \ | | |
+|_|   |_|\__,_|___/_| |_|
+```
+
 A small PHP module for [Anax-MVC](https://github.com/olund/Anax-MVC) based on sessions.
 
 
