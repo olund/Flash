@@ -1,0 +1,22 @@
+{
+    "name": "olund/flash",
+    "type": "library",
+    "description": "A small flash module for Anax-MVC",
+    "keywords": ["flash", "mvc", "anax", "olund", "flash", "php"],
+    "homepage": "http://x80.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Ölund",
+            "email": "henke.olund@gmail.com",
+            "homepage": "http://x80.se",
+            "role": "Student, Web developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "olund\\": "src/" }
+    }
+}
