@@ -2,6 +2,8 @@ Flash
 =========
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/olund/Flash/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/olund/Flash/?branch=master)
 
+You can also find this on [Packagist](https://packagist.org/packages/olund/flash)
+
 ```
  _____ _           _
 |  ___| | __ _ ___| |__  
