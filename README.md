@@ -8,7 +8,7 @@ Flash
 |_|   |_|\__,_|___/_| |_|
 ```
 
-A small PHP module for [Anax-MVC](https://github.com/olund/Anax-MVC) based on sessions.
+A small PHP Flash module for [Anax-MVC](https://github.com/olund/Anax-MVC) based on sessions.
 
 
 Preview
