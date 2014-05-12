@@ -9,7 +9,7 @@ $app->withSession();
 
 // Set flash.
 $di->setShared('flash', function () {
-    $flash = new \Anax\Flash\CFlash();
+    $flash = new \olund\Flash\CFlash();
     return $flash;
 });
 
