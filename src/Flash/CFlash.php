@@ -1,8 +1,8 @@
 <?php
 
-namespace Anax\Flash;
+namespace olund\Flash;
 
-class CFlash extends \Anax\Flash\CFlashBasic
+class CFlash
 {
     private $icons = [
         'notice' => 'fa-info',
