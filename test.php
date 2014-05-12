@@ -3,7 +3,9 @@
 require __DIR__.'/config_with_app.php';
 
 // Start session.
+// If you use MY version of Anax-MVC use:
 $app->withSession();
+// Otherwise, use: $app->session;
 
 // Set flash.
 $di->setShared('flash', function () {
@@ -11,7 +13,7 @@ $di->setShared('flash', function () {
     return $flash;
 });
 
-$app->router->add('flash', function () use ($app) {
+$app->router->add('', function () use ($app) {
     $app->theme->setTitle('Flash');
 
     $app->flash->success('This is a success message');
