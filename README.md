@@ -6,7 +6,7 @@ You can also find this on [Packagist](https://packagist.org/packages/olund/flash
 
 ```
  _____ _           _
-|  ___| | __ _ ___| |__  
+|  ___| | __ _ ___| |__
 | |_  | |/ _` / __| '_ \
 |  _| | | (_| \__ \ | | |
 |_|   |_|\__,_|___/_| |_|
@@ -38,7 +38,7 @@ $di->setShared('flash', function () {
 
 You can now use Flash
 
-```
+```php
 $app->flash->success('Success message');
 $app->flash->error('Error message');
 $app->flash->notice('Notice message');
@@ -47,13 +47,13 @@ $app->flash->warning('Warning message');
 ```
 
 To get the html use:
-```
+```php
 $app->flash->get()
 ```
 
 Example:
 
-```
+```php
 // Create a route.
 $app->router->add('flash', function () use ($app) {
     // Sets the title
@@ -73,7 +73,7 @@ $app->router->add('flash', function () use ($app) {
 ```
 
 The output:
-```
+```html
 <div class='errorMessage'>Error message</div>
 <div class='successMessage'>Success message</div>
 <div class='noticeMessage'>Notice message</div>
