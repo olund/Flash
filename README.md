@@ -23,7 +23,7 @@ Preview
 Instructions for Anax-MVC
 =========
 Add the following to your frontcontroller.
-```
+```php
 // Start session.
 $app->withSession();
 
