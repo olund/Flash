@@ -1,9 +1,10 @@
 Flash
 =========
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/olund/Flash/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/olund/Flash/?branch=master)
-
+[![Build Status](https://travis-ci.org/olund/Flash.svg?branch=master)](https://travis-ci.org/olund/Flash)
+[![Code Coverage](https://scrutinizer-ci.com/g/olund/Flash/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/olund/Flash/?branch=master)
 You can also find this on [Packagist](https://packagist.org/packages/olund/flash)
-a
+
 ```
  _____ _           _
 |  ___| | __ _ ___| |__
