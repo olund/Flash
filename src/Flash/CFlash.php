@@ -108,6 +108,4 @@ class CFlash
         }
         return $messages;
     }
-
-
 }
